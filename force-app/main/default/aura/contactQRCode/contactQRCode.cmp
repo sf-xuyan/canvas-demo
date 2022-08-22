@@ -3,7 +3,7 @@
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <lightning:card>
         <div class="slds-grid slds-grid_align-center slds-p-around_small">
-            <force:canvasApp developerName="canvas_demo_signed_request" parameters="{!v.params}" />
+            <force:canvasApp developerName="CodeScience_Canvas_App" namespacePrefix="cscanvas" parameters="{!v.params}" />
         </div>
     </lightning:card>
 </aura:component>	

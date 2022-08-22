@@ -47,6 +47,7 @@ public with sharing class CanvasAppLifecycleHandler implements Canvas.CanvasLife
             // Add a 'newCustomParam' to our Map
             previousParams.put('customContext','record');
         }
+
         // Now, replace the parameters
         env.setParametersAsJSON(JSON.serialize(previousParams));
     }
