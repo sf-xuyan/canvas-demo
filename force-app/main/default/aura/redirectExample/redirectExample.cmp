@@ -1,0 +1,7 @@
+<aura:component implements="lightning:isUrlAddressable">
+    <lightning:card>
+        <div class="slds-align_absolute-center" style="height:5rem">
+            <force:canvasApp developerName="canvas_demo_signed_request" width="100%" />
+        </div>
+    </lightning:card>
+</aura:component>

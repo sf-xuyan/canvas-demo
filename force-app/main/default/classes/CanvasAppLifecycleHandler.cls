@@ -30,6 +30,8 @@ public with sharing class CanvasAppLifecycleHandler implements Canvas.CanvasLife
         // app.setCanvasUrlPath('/alternatePath');
         if(env.getLocationUrl().contains('RealtyApp')) {
             app.setCanvasUrlPath('/realty');
+        } else if(env.getLocationUrl().contains('RedirectExample')) {
+            app.setCanvasUrlPath('/redirect');
         }
 
         // Code goes here to customize behavior when the app is rendered
