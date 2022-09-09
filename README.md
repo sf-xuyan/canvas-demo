@@ -33,5 +33,6 @@ Note: if you are using SFDX to login into Salesforce, you will get an "invalid s
 * A "stand alone" Visualforce Realty App available at https://<mydomain>--c.visualforce.com/apex/RealtyApp
 * A "stand alone" Aura Component Realty App available at https://<mydomain>.lightning.force.com/lightning/cmp/c__RealtyApp
 * A "QR code component" available in the Contact Record Page
+* A "Redirect Example" Aura Component is available at https://<mydomain>.lightning.force.com/lightning/cmp/c__redirectExample
 
 Note that the latest support for these locations is only available in the NodeJS Sample App. So, only use the Java Sample App for basic demos.
